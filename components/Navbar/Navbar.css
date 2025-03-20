@@ -44,7 +44,7 @@
 }
 
 .navbarContainer ul li a:hover {
-    color: #A8121C;
+    color: #000000;
     transition: all .5s;
     cursor: pointer;
 }
