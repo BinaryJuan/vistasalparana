@@ -1,0 +1,85 @@
+.ham {
+	width: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.menu {
+	background-color: #ffffff;
+	user-select: none;
+	height: 400px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	margin-left: -20px;
+	margin-top: -15px;
+	animation: appear .3s linear;
+	z-index: 999;
+}
+
+.menu ul {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	z-index: 9;
+}
+
+.menu ul li {
+	font-size: 1.3rem;
+	padding: 15px 0 15px 5px;
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.hamNav {
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+}
+
+.miniNav {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10%;
+}
+
+.miniNavbarLogo {
+	width: 100px;
+}
+
+.cross {
+	width: 40px;
+	cursor: pointer;
+}
+
+.miniNavbarLogo {
+	width: 100px;
+}
+
+@keyframes appear {
+	from {
+		opacity: 0%;
+		width: 0vw;
+	}
+	to {
+		opacity: 100%;
+		width: 100vw;
+	}
+}
+
+@media (max-width: 630px) {
+	.ham {
+		display: block;
+	}
+}
+
+
+@media (max-width: 300px) {
+	.menu ul li {
+		font-size: 1rem;
+	}
+}

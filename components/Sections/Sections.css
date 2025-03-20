@@ -1,0 +1,169 @@
+.sectionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.sectionsContainer h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    user-select: none;
+    margin-bottom: 80px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20%;
+    gap: 80px;
+}
+
+.sections section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 80px;
+}
+
+.sections img {
+    width: 400px;
+}
+
+.sections a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #A8121C;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 1.2rem;
+    font-size: 1.1rem;
+    width: fit-content;
+    transition: all .7s;
+    min-width: max-content;
+}
+
+.sections a:hover {
+    background-color: #970211;
+    transition: all .7s;
+}
+
+.sections a:active {
+    background-color: #970211;
+    transition: all .7s;
+}
+
+.sections section .info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sections h4 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.sections p {
+    font-size: 1.2rem;
+    min-width: 200px;
+    max-width: 370px;
+}
+
+.reverseSection {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 1200px) {
+    .sections {
+        padding: 30px 10%;
+    }
+
+    .sections img {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .sections {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    .sections {
+        padding: 30px 20px;
+    }
+
+    .sectionsContainer h3 {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    .sections {
+        padding: 30px 30px;
+    }
+
+    .sections img {
+        width: 250px;
+    }
+
+    .sectionsContainer h3 {
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .sections h4 {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    .sections p {
+        font-size: 1rem;
+    }
+
+    .sections a {
+        font-size: 1rem;
+    }
+
+    .sections section {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .sections section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sections section .info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionsContainer h3 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 325px) {
+    .sections {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 280px) {
+    .sections {
+        overflow: hidden;
+    }
+}

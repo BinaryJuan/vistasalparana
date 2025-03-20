@@ -1,0 +1,35 @@
+.resenasContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.resenasContainer h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 60px;
+    user-select: none;
+}
+
+.resenas {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 725px) {
+    .resenas {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+@media (max-width: 660px) {
+    .resenasContainer h3 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}

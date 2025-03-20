@@ -1,0 +1,75 @@
+.brandSliderContainer {
+    display: flex;
+    width: 100%;
+    color: #A8121C;
+    font-size: 2.5rem;
+    font-weight: bold;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -15px;
+}
+
+.brands {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.slide {
+    animation: slide 45s infinite linear;
+}
+
+.slideR {
+    animation: slide 65s infinite linear;
+    animation-direction: reverse;
+    font-size: 1.5rem;
+}
+
+.brandSliderContainer:hover .brands {
+    animation-play-state: running;
+}
+
+.brandName {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.brandNameS1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.brandNameS2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.brandName div {
+    font-style: italic;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 0;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 930px) {
+    .brandNameS1 {
+        font-size: 2.5rem;
+    }
+
+    .brandNameS2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .brandSliderContainer {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,52 @@
+.titleButonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    user-select: none;
+}
+
+.titleButonContainer h3 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.titleButonContainer a {
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #A8121C;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 1.2rem;
+    font-size: 1.1rem;
+    transition: all .7s;
+}
+
+.titleButonContainer a:hover {
+    background-color: #970211;
+    transition: all .7s;
+}
+
+.titleButonContainer a:active {
+    background-color: #970211;
+    transition: all .7s;
+}
+
+@media (max-width: 750px) {
+    .titleButonContainer h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .titleButonContainer h3 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .titleButonContainer a {
+        font-size: 1rem;
+    }
+}

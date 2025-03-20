@@ -1,0 +1,66 @@
+.resenaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+    padding: 20px 20px 100px 20px;
+    border-radius: 1.3rem;
+    border: 1px solid #999999;
+    transition: all .5s;
+}
+
+.resenaContainer:hover {
+    transition: all .7s;
+    transform: scale(1.05);
+}
+
+.resenaContainer img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.resenaContainer p {
+    max-width: 250px;
+}
+
+@media (max-width: 1200px) {
+    .resenaContainer {
+        padding: 20px 20px 70px 20px;
+    }
+}
+
+@media (max-width: 725px) {
+    .resenaContainer {
+        padding: 20px 20px 30px 20px;
+        gap: 20px;
+    }
+
+    .resenaContainer p {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 325px) {
+    .resenaContainer {
+        align-items: center;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+
+    .resenaContainer p {
+        text-align: center;
+    }
+}

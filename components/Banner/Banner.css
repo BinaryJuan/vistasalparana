@@ -1,0 +1,98 @@
+.bannerContainer {
+    color: #f4f2fd;
+    padding: 180px 30%;
+    justify-items: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../public/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerContainer h2 {
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bannerContainer p {
+    font-size: 1.7rem;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+    .bannerContainer {
+        padding: 80px 10%;
+    }
+}
+
+@media (max-width: 930px) {
+    .bannerContainer {
+        padding: 80px 5%;
+        height: auto;
+    }
+
+    .bannerContainer h2 {
+        font-size: 3rem;
+    }
+
+    .bannerContainer p {
+        font-size: 1.5rem;
+    }
+
+    .bannerContainer a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .bannerContainer {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bannerContainer h2 {
+        font-size: 2.5rem;
+    }
+
+    .bannerContainer p {
+        font-size: 1.2rem;
+    }
+
+    .bannerContainer a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 250px) {
+    .bannerContainer {
+        overflow: hidden;
+    }
+
+    .bannerContainer h2 {
+        font-size: 2rem;
+    }
+
+    .bannerContainer p {
+        font-size: 1rem;
+    }
+
+    .bannerContainer a {
+        font-size: 1rem;
+    }
+}
