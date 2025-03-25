@@ -11,7 +11,7 @@
 
 .resenaContainer:hover {
     transition: all .7s;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .resenaContainer img {
@@ -28,6 +28,7 @@
 .title h5 {
     font-size: 1.2rem;
     font-weight: 500;
+    user-select: none;
 }
 
 .resenaContainer p {

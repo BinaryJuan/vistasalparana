@@ -12,26 +12,59 @@
     font-size: 3rem;
 }
 
-.titleButonContainer a {
+.titleButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.titleButonContainer .linkTypeOne {
     font-weight: bold;
     text-decoration: none;
     margin-top: 20px;
     background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
-    border-radius: 1.2rem;
+    border-radius: .5rem;
     font-size: 1.1rem;
-    transition: all .7s;
+    transition: all .5s;
+    border: 1px solid transparent;
 }
 
-.titleButonContainer a:hover {
-    background-color: #970211;
-    transition: all .7s;
+.titleButonContainer .linkTypeOne:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    transition: all .5s;
 }
 
-.titleButonContainer a:active {
-    background-color: #970211;
-    transition: all .7s;
+.titleButonContainer .linkTypeOne a:active {
+    background-color: #ffffff;
+    transition: all .5s;
+}
+
+.titleButonContainer .linkTypeTwo {
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    transition: all .5s;
+    border: 1px solid #000000;
+}
+
+.titleButonContainer .linkTypeTwo:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+
+.titleButonContainer .linkTypeTwo:active {
+    background-color: #ffffff;
+    transition: all .5s;
 }
 
 @media (max-width: 750px) {

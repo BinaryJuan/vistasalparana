@@ -49,6 +49,22 @@
     cursor: pointer;
 }
 
+.spanNav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: .4rem;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+
+.spanNav:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    transition: all .5s;
+}
+
 @media (max-width: 1200px) {
     .navbarContainer {
         padding: 10px 10%;

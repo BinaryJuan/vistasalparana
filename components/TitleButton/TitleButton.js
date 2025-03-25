@@ -4,9 +4,14 @@ const TitleButton = () => {
     return (
         <div className='titleButonContainer'>
             <h3>Beneficio para el usuario</h3>
-            <a href='#servicios'>
-                Conocé nuestros servicios
-            </a>
+            <div className='titleButtons'>
+                <a className='linkTypeOne' href='#servicios'>
+                    Conocé nuestros servicios
+                </a>
+                <a className='linkTypeTwo' href='#servicios'>
+                    Ver más
+                </a>
+            </div>
         </div>
     );
 }

@@ -31,6 +31,15 @@
 
 .sections img {
     width: 400px;
+    transition: all .3s;
+    filter: grayscale(100%);
+    border-radius: .3rem;
+}
+
+.sections img:hover {
+    transition: all .5s;
+    transform: scale(1.02);
+    filter: grayscale(0%);
 }
 
 .sections a {
@@ -44,15 +53,19 @@
     width: fit-content;
     transition: all .7s;
     min-width: max-content;
+    user-select: none;
+    border: 1px solid transparent;
 }
 
 .sections a:hover {
-    background-color: #970211;
+    background-color: #ffffff;
+    color: #000000;
     transition: all .7s;
+    border: 1px solid #000000;
 }
 
 .sections a:active {
-    background-color: #970211;
+    background-color: #ffffff;
     transition: all .7s;
 }
 

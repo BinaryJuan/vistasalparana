@@ -6,6 +6,8 @@ import TitleButton from "@/components/TitleButton/TitleButton";
 import BrandSlider from "@/components/BrandSlider/BrandSlider";
 import Sections from "@/components/Sections/Sections";
 import Resenas from "@/components/Resenas/Resenas";
+import BannerInfo from '@/components/BannerInfo/BannerInfo';
+import ServiceInfo from '@/components/ServiceInfo/ServiceInfo';
 
 const Main = () => {
   return (
@@ -21,6 +23,8 @@ const Main = () => {
         <BrandSlider mensaje1='VISTAS AL PARANA' anim='slideR' style='brandNameS2' />
         <Sections />
         <Resenas />
+        <ServiceInfo />
+        <BannerInfo />
         <BrandSlider mensaje1='VAP' anim='slide' style='brandNameS1' />
         <BrandSlider mensaje1='VISTAS AL PARANA' anim='slideR' style='brandNameS2' />
       </main>

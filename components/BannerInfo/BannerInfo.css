@@ -1,0 +1,48 @@
+.bannerInfoContainer {
+    width: 80%;
+    margin: 40px auto 110px auto;
+}
+
+.bannerInfo {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: .7rem;
+}
+
+.bannerInfo h3 {
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.bannerInfo p {
+    margin-top: -12px;
+    width: 70%;
+    font-weight: 300;
+    user-select: none;
+}
+
+.bannerInfo a {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: .5rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .7s;
+    border: 1px solid transparent;
+    user-select: none;
+}
+
+.bannerInfo a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all .7s;
+    border: 1px solid #ffffff;
+}
